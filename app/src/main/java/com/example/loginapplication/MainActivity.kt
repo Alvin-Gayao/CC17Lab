@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.view.View
+import android.widget.Button
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.login.*
+import kotlinx.android.synthetic.main.user_registration.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         registration.setOnClickListener {
             showRegistration()
         }
-        login.setOnClickListener {
+        login_button.setOnClickListener {
             showLogIn()
         }
         save.setOnClickListener {
